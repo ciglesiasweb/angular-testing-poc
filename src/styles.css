@@ -80,3 +80,33 @@ nav a.active {
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
+/*
+.shake-effect {
+  animation-name: shake;
+  animation-duration: 0.5s;
+
+}
+
+@keyframes shake {
+
+  10%,
+  90% {
+    transform: translate(-2px, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate(2px, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate(-2px, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate(2px, 0);
+  }
+} */
