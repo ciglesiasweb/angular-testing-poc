@@ -28,10 +28,10 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('testing-suite');
   });
 
-  it('should render My Tasks in a h2', () => {
+  it('should render a nav to navigate', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h2').textContent).toContain('My Tasks...');
+    expect(compiled.querySelector('nav').textContent).toBeDefined();
   });
 });

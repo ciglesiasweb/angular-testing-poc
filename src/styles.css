@@ -67,12 +67,12 @@ nav a.active {
 }
 
 
-.dashboard-cards{
+.dashboard-cards, .task-list-container{
   display: flex;
   flex-wrap: wrap;
 }
 
-.dashboard-card{
+.dashboard-card, .task-panel{
   width:350px;
   margin-right: 20px;
 }
@@ -80,33 +80,15 @@ nav a.active {
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
-/*
-.shake-effect {
-  animation-name: shake;
-  animation-duration: 0.5s;
 
+
+.task-panel {
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  color: var(--card-color);
+  background-color: var(--card-bg-color);
+  border-color: var(--card-border-color);
 }
-
-@keyframes shake {
-
-  10%,
-  90% {
-    transform: translate(-2px, 0);
-  }
-
-  20%,
-  80% {
-    transform: translate(2px, 0);
-  }
-
-  30%,
-  50%,
-  70% {
-    transform: translate(-2px, 0);
-  }
-
-  40%,
-  60% {
-    transform: translate(2px, 0);
-  }
-} */
