@@ -35,5 +35,6 @@ export class TasksService implements OnDestroy {
   getTask(id: number | string): Observable<Task> {
     const task$ = of(TASKS.find(task => task.id === +id));
     return task$.pipe(delay(FETCH_LATENCY));
+
   }
 }
